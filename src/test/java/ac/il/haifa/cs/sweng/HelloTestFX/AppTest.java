@@ -5,6 +5,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.testfx.api.FxAssert;
@@ -27,6 +28,8 @@ public class AppTest {
     var scene = new Scene(loadFXML("primary"), 640,480);
     stage.setScene(scene);
     stage.show();
+//    String[] args = new String[3];
+//    newApp.main(args);
   }
 
   @Test
